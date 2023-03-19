@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+  <title>Engenharia de Multimédia</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/CSS/index.css">
+  <script src="/JS/index.js"></script>
+  <title>Document</title>
+</head>
+
+<main>
+  <header class="site-header">
+    <h1 class="site-title">Engenharia de Multimedia</h1>
+    <nav class="site-navigation">
+      <ul class="menu">
+      <li><a href="/HTML/artigos.html">Artigos</a></li>
+      <li><a href="/HTML/tutorias.html">Tutoriais</a></li>
+      <li><a href="/HTML/noticias.html">Notícias</a></li>
+      <li><a href="/HTML/eventos.html">Eventos</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="site-content">
+    <h2 class="page-title">Bem-vindo ao Meu Site</h2>
+    <p>Aqui irás encontrar artigos, tutoriais, notícias e eventos relacionados à engenharia de Multimedia.</p>
+    <h2>Queres fazer parte da comunidade?</h2>
+    <!--Botão para formulário-->
+    <button onclick="showform()">Clica Aqui</button>
+
+    <div id="formularioRegisto" style="display: none;" class="modal">
+      <button class="fechar" onclick="closeform()">&times; </button>
+      <h2>Formulário de Registo</h2>
+      <form>
+        <label for="name">Nome:</label>
+        <input type="text" id="name" name="name" required>
+      
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required>
+      
+        <label for="password">Senha:</label>
+        <input type="password" id="password" name="password" required>
+      
+        <button type="submit">Enviar</button>
+      </form>      
+    </div>
+
+  </main>
+  <footer class="site-footer">
+    <p>&copy; 2023 Engenharia de Multimedia. Todos os direitos reservados.</p>
+  </footer>
+  

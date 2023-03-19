@@ -1,0 +1,26 @@
+#eventos {
+    padding: 20px;
+  }
+  
+  h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  article {
+    margin-bottom: 20px;
+  }
+  
+  h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 0;
+  }
+  

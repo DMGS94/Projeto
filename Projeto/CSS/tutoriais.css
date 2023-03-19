@@ -1,0 +1,26 @@
+/* Estilos para a seção de tutoriais */
+
+/* Estilização geral */
+#tutoriais {
+    margin: 50px 0;
+  }
+  
+  /* Estilização para cada artigo */
+  #tutoriais article {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilização para o título de cada artigo */
+  #tutoriais article h3 {
+    margin-top: 0;
+    font-size: 24px;
+  }
+  
+  /* Estilização para o texto de cada artigo */
+  #tutoriais article p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
